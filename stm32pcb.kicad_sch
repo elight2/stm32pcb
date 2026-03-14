@@ -7713,6 +7713,28 @@
 			)
 		)
 	)
+	(global_label "PB2_BOOT1"
+		(shape input)
+		(at 111.76 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05705803-cf20-4b8a-99d3-b973ee69fb9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.9496 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STM32_3V3"
 		(shape input)
 		(at 278.13 110.49 0)
@@ -7929,28 +7951,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOT0"
-		(shape input)
-		(at 111.76 194.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "319bc356-aaa0-4aa7-aba6-26406dca56bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.6667 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9288,7 +9288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "lcsc:USB-C-SMD_HH-16P-CB-TYPE-C"
 			(at 360.68 220.98 0)
 			(effects
 				(font
@@ -11390,7 +11390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "lcsc:USB-C-SMD_HH-16P-CB-TYPE-C"
 			(at 31.75 44.45 0)
 			(effects
 				(font
