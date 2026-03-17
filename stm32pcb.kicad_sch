@@ -7043,6 +7043,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 57.15) (xy 278.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beef7ebe-523a-49b7-9084-2c285f540ea3")
+	)
+	(wire
+		(pts
 			(xy 307.34 125.73) (xy 340.36 125.73)
 		)
 		(stroke
