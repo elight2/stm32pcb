@@ -6523,6 +6523,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 40.64) (xy 102.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8751b384-c908-40e2-8d9f-0897eea4671c")
+	)
+	(wire
+		(pts
 			(xy 116.84 257.81) (xy 123.19 257.81)
 		)
 		(stroke
@@ -7303,6 +7313,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 38.1) (xy 102.87 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda4ead2-e00a-4511-ac4b-87cbceda8e69")
+	)
+	(wire
+		(pts
 			(xy 375.92 69.85) (xy 386.08 69.85)
 		)
 		(stroke
@@ -7691,28 +7711,6 @@
 		)
 		(uuid "ff89f4d1-2a67-458e-94e4-6cf76a667bd3")
 	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 93.98 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "017867b0-8767-4e5c-90cc-011afd50e62f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.1942 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB2_BOOT1"
 		(shape input)
 		(at 111.76 194.31 180)
@@ -7841,6 +7839,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 102.87 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bdb7c6e-e2eb-47a2-8229-a24cac9af3a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.0842 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8012,28 +8032,6 @@
 		(uuid "411f60d3-f3bb-4b7a-bc3a-86af2971813a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.8509 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SWDIO"
-		(shape input)
-		(at 93.98 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "412ccdf6-e4d9-4fe4-8c39-45ea15789fa0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8314 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,6 +8406,28 @@
 		(uuid "785c57f2-4943-4f8d-b912-cc998b39d48d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.2079 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 102.87 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a100072-d250-42d3-ba98-23362f61decf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.7214 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,6 +10602,73 @@
 			(project "stm32pcb"
 				(path "/deb2f888-ee5e-42ae-a295-95cf39931a97"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fa26c5d-bccb-4728-8a3a-a4fde314c4bb")
+		(property "Reference" "R13"
+			(at 88.646 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 92.964 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 97.79 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92813412-0448-417b-9de6-5ff75178e7f5")
+		)
+		(pin "2"
+			(uuid "20536b21-4ba4-4c20-ade7-792ba62b5fae")
+		)
+		(instances
+			(project "stm32pcb"
+				(path "/deb2f888-ee5e-42ae-a295-95cf39931a97"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13385,6 +13472,73 @@
 			(project "stm32pcb"
 				(path "/deb2f888-ee5e-42ae-a295-95cf39931a97"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db026a3f-a7d0-4960-9597-57bdf26a8f1b")
+		(property "Reference" "R14"
+			(at 88.646 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 92.964 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 97.79 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fb9bf46-2570-424b-9fd8-f4e5c81c15ac")
+		)
+		(pin "2"
+			(uuid "383879e2-ae42-4406-9180-4fd3ea7cf4e9")
+		)
+		(instances
+			(project "stm32pcb"
+				(path "/deb2f888-ee5e-42ae-a295-95cf39931a97"
+					(reference "R14")
 					(unit 1)
 				)
 			)
